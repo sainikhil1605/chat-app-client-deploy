@@ -60,7 +60,7 @@ export const Chat = ({ location }) => {
     const [room, setRoom] = useState('');
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
-    const ENDPOINT = 'http://localhost:4000';
+    const ENDPOINT = 'https://chat-application-nikhil.herokuapp.com/';
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
         socket = io(ENDPOINT);
