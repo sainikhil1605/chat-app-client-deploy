@@ -27,6 +27,7 @@ export const useStyles = makeStyles({
         overflow: "auto",
         // padding: "0px 90px 90px 90px",
         backgroundColor: "white",
+        minWidth: "320px"
 
 
     },
